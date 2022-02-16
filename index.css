@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    margin: 0 8vw;
+}
+main .work {
+    padding-top: 16vw;
+}
+main h1 {
+    padding-bottom: 6vw;
+    font-size: 3.4vw;
+}
+main #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+main .work #gallery .box {
+    width: 24vw;
+    height: 24vw;
+    margin-bottom: 6vw;
+}
+main .work #gallery .box:hover {
+    background-size: 120%;
+    transition: 0.3s;
+}
+main .work #gallery .box1 {
+    background: url("images/work01.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+main .work #gallery .box2 {
+    background: url("images/work02.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+main .work #gallery .box3 {
+    background: url("images/work03.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+main .work #gallery .box4 {
+    background: url("images/work04.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+main .work #gallery .box5 {
+    background: url("images/work05.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+main .work #gallery .box6 {
+    background: url("images/work06.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+
+main .artist {
+    padding-top: 16vw;
+}
+main .artist #gallery .box {
+    background-color: #000;
+    width: 18.4vw;
+    height: 18.4vw;
+    margin-bottom: 3.2vw;
+}
+main .artist #gallery .box:hover {
+    background-size: 110%;
+    transition: 0.3s;
+}
+main .artist #gallery .box1 {
+    background: url("images/artist01.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .artist #gallery .box2 {
+    background: url("images/artist02.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .artist #gallery .box3 {
+    background: url("images/artist03.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .artist #gallery .box4 {
+    background: url("images/artist04.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .artist #gallery .box5 {
+    background: url("images/artist05.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .artist #gallery .box6 {
+    background: url("images/artist06.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .artist #gallery .box7 {
+    background: url("images/artist07.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .artist #gallery .box8 {
+    background: url("images/artist08.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+
+/* swiper */
+.mainSlide {
+    width: 100%;
+    height: 38vw;
+}
+.mainSlide .swiper-slide {
+    background: no-repeat 100% / cover;
+}
+.mainSlide .img1 {
+    background-image: url("images/banner.jpg") ;
+}
+.mainSlide .img2 {
+    background-image: url("images/work02.jpg");
+}
+.mainSlide .img3 {
+    background-image: url("images/work03.jpg");
+}
+.mainSlide .img4 {
+    background-image: url("images/work04.jpg");
+}
+
+/* pagination */
+.swiper-pagination-bullet {
+    width: 0.6vw;
+    height: 0.6vw;
+    background-color: #000;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
